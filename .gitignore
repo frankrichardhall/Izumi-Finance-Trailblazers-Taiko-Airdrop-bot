@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# TypeScript build files
+dist/
+build/
+*.js
+*.d.ts
+
+# Logs
+*.log
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore yarn.lock or package-lock.json if you're using one of them, not both
+# yarn.lock
+# package-lock.json
+
+# Ignore npm-debug.log
+npm-debug.log*

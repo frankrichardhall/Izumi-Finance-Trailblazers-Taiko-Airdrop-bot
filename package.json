@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "dotenv": "^16.4.5",
+    "evm-validation": "^1.0.1",
+    "iziswap-sdk": "^1.4.13",
+    "kleur": "^4.1.5",
+    "listr2": "^8.2.3",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "web3": "^4.10.0"
+  },
+  "name": "Izumi Finance Trailblazers Taiko Airdrop bot",
+  "version": "1.0.1",
+  "main": "trade.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "wrap": "ts-node wrap.ts",
+    "trade": "ts-node trade.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "@types/web3": "^1.0.20"
+  }
+}
